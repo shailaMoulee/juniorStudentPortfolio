@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Garamond, serif;
+}
+
+.main-Container {
+  width: 90%;
+  margin: auto;
+}
+
+.title_work {
+  font-size: 18pt;
+}
+
+#author {
+margin-bottom: 100px;
+}
+
+.work_content {
+  font-size: 15pt;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.title_work, #author {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+/*navbar*/
+.navbar {
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 80px;
+  width: auto;
+}
+
+.navbar-List {
+  flex: 1;
+  padding-left: 60px;
+}
+
+.navbar-List .list {
+  display: inline-block;
+  list-style: none;
+  margin: 0 25px;
+}
+
+.navbar-List .list .list-Link {
+  text-decoration: none;
+  color: #715866;
+  padding: 0 10px;
+  position: relative;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.navbar-List .list-Link:hover{
+  color: #D9C1CA;
+}
+
+.active {
+  background-color: #C3B6F2;
+}
+
+
+/*Grid Feature*/
+.work {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.work:hover {
+  opacity: 0.3;
+}
+
+.container-1 {
+  display: grid;
+  gap: 1.0rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 0;
+  margin-left: 1in;
+  margin-right: 1in;
+  margin-bottom: 1in;
+}
+
+.thumbnail {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.des {
+  font-weight: bold;
+  font-size: 14pt;
+  text-align: center;
+}
+
+
+/*Home*/
+.art_home {
+  opacity: 0.5;
+}
+
+.word_home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info-8 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+#title-home {
+  margin-top: 100px;
+  font-size: 50pt;
+  text-align: center;
+}
+
+#about-home {
+  margin-top: 50px;
+  font-size: 20pt;
+  text-align: center;
+}
+
+
+/*about*/
+.info-1 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+#title-about {
+  margin-top: 100px;
+  font-size: 30pt;
+  text-align: center;
+}
+
+#about-about {
+  margin-top: 50px;
+  font-size: 20pt;
+  text-align: center;
+}
+
+
+/*creator*/
+.shaila-image {
+ width: 250px;
+ height: 250px;
+ background-image: url('images/shaila.jpeg');
+ background-size: cover;
+ display: block;
+ opacity: 1;
+ transition: .5s ease;
+ backface-visibility: hidden;
+ border-radius: 125px;
+ -webkit-border-radius: 125px;
+ -moz-border-radius: 125px; 
+}
+
+.shaila-image:hover {
+  opacity: 0.3;
+}
+
+.info-6 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+#title-shaila {
+  margin-top: 100px;
+  font-size: 30pt;
+  text-align: center;
+}
+
+#about-shaila {
+  margin-top: 50px;
+  font-size: 20pt;
+  text-align: center;
+}
+
+#shaila-A {
+	margin-top: 50px;
+	font-size: 15pt;
+	text-align: center;
+}
+
+
+/*Python Display*/
+.python_display{
+	border:2px #303C6C solid;
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	background-color: #F4976C;
+	/*background-color: #C3B6F2;*/
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+/*Project(s)*/
+.project-image {
+ width: 250px;
+ height: 250px;
+ background-image: url('images/o1.jpg');
+ background-size: cover;
+ display: block;
+ opacity: 1;
+ transition: .5s ease;
+ backface-visibility: hidden;
+ border-radius: 125px;
+ -webkit-border-radius: 125px;
+ -moz-border-radius: 125px;
+}
+
+.project-image:hover {
+  opacity: 0.3;
+}
+
+
+.info-2 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+#title-projects {
+  margin-top: 100px;
+  font-size: 30pt;
+  text-align: center;
+}
+
+#about-projects {
+  margin-top: 50px;
+  font-size: 20pt;
+  text-align: center;
+}
+
+
+/*Console Work(s)*/
+.console-image {
+ width: 250px;
+ height: 250px;
+ background-image: url('images/c2.jpg');
+ background-size: cover;
+ display: block;
+ opacity: 1;
+ transition: .5s ease;
+ backface-visibility: hidden;
+ border-radius: 125px;
+ -webkit-border-radius: 125px;
+ -moz-border-radius: 125px;
+}
+
+.console-image:hover {
+  opacity: 0.3;
+}
+
+.info-3 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+#title-console {
+  margin-top: 100px;
+  font-size: 30pt;
+  text-align: center;
+}
+
+#about-console {
+  margin-top: 50px;
+  font-size: 20pt;
+  text-align: center;
+}
+
+
+/*Button CSS*/
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+/*Divider CSS*/
+.divider {
+  border: 1px solid gray;
+  position: relative;
+  display: flex;
+  width: 250px;
+  justify-content: center;
+}
+
+/*Description CSS*/
+.description {
+  font-size: 13pt;
+  text-align: center;
+}
+
+
+/*Footer CSS*/
+footer {
+  clear:both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  background-color: #393C48;
+  height: 140px;
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
+}
